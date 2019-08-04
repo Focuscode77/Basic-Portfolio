@@ -1,38 +1,27 @@
+html{
+    height: 100%;
+    margin:0;
+    padding:0;
+}
+
 body {
     background-image: url(../../assets/Images/email-pattern.png);
     height: 100%;
     margin:0;
-
+    padding:0;
     
 
-    
 }
-
-.wrapper{
-    min-height: 100%;
-    margin-bottom:-100px;
-    
-}
-
-.wrapper:after{
-    content:"";
-    display:block;
-}
-
-.wrapper:after,footer{
-height:100px;
+ 
 }
 h1{
     color: #ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 26px;
-    
-    
-
-
-
-
 }
+
+
+
 h2{
    color: #4aaaa5;
    font-family: Georgia, 'Times New Roman', Times, serif;
@@ -47,6 +36,8 @@ background-position: center;
 .logo {
     background: #4aaaa5;
     height: 35px;
+    width: 240px;
+    color: #ffffff;
 
 
 }
@@ -74,10 +65,25 @@ nav ul li{
 
 p{
     color: #777777;
-    text-align: center;
+    display:inline;
+}
+wrapper{
+    position: relative;
 }
 
 footer {
-background-color: #666666;
-
+    background: #666666;
+    height: 40px;
+    width:100%;
+    position: absolute;
+    left:0px;
+    bottom:0px;
+    
+}
+footer p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 13px 0px 0px 0px;
+    color: #ffffff;
 }
