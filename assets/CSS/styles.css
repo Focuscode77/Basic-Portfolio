@@ -1,16 +1,26 @@
 body {
     background-image: url(../../assets/Images/email-pattern.png);
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+    height: 100%;
+    margin:0;
+
+    
 
     
 }
 
 .wrapper{
-    margin:0 auto;
-    width: 1000px;
-    background-color: #ffffff;
+    min-height: 100%;
+    margin-bottom:-100px;
+    
+}
+
+.wrapper:after{
+    content:"";
+    display:block;
+}
+
+.wrapper:after,footer{
+height:100px;
 }
 h1{
     color: #ffffff;
@@ -68,10 +78,6 @@ p{
 }
 
 footer {
-width: 100%;
 background-color: #666666;
-padding:10px 0px;
-margin-top: auto;
-
 
 }
